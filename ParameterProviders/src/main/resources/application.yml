@@ -1,0 +1,7 @@
+core:
+  app_name: "Properties provider"
+  appInfo:
+    version: 1
+    multithreading: false
+    comments: "train project"
+    flags_example: "java,-jar,ParameterProviders.jar"

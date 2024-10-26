@@ -1,0 +1,6 @@
+db:
+  postgres:
+    username: user
+    password: 1234qwer
+    url: jdbc:postgresql://localhost:5432/testing
+  fetchSize: 2

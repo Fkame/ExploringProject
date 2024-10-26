@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  pg-admin-4:
+    image: dpage/pgadmin4:8.5
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "me.mario@mail.ru"
+      PGADMIN_DEFAULT_PASSWORD: "1234qwer"
+    ports:
+      - "9100:80"
+
+  db-postgres:
+    image: postgres:16
+    restart: always
+    environment:
+      POSTGRES_DB: "testing"
+      POSTGRES_USER: "user"
+      POSTGRES_PASSWORD: "1234qwer"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - /var/lib/postgresql/data
+    ports:
+      - "5432:5432"

@@ -22,7 +22,7 @@ public class EnvParameterProvider {
         this.version = env.getProperty("core.appInfo.version", Integer.class);
         this.multithreading = env.getProperty("core.appInfo.multithreading", Boolean.class);
         this.comments = env.getProperty("core.appInfo.comments");
-        this.flagsExample = List.of(env.getProperty("core.appInfo.flags_example").split(","));
+        this.flagsExample = List.of(env.getRequiredProperty("core.appInfo.flags_example").split(","));
     }
 
     @PostConstruct

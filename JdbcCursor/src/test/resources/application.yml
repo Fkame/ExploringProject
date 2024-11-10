@@ -1,0 +1,15 @@
+db:
+  postgres:
+    username: user
+    password: 1234qwer
+    url: jdbc:postgresql://localhost:5432/testing
+    schema: testing
+  fetchSize: 2
+logging:
+  level:
+    # Это чтобы видеть, открылась транзакция или нет
+    org.springframework.transaction: TRACE
+    # jdbcTemplate логгирует только сам факт выполнения запроса, ну и запрос тоже
+    org.springframework.jdbc: TRACE
+    # сам факт обращения по курсору можно увидеть только в классах драйвера
+    org.postgresql.core.v3: TRACE

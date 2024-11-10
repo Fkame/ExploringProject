@@ -3,4 +3,5 @@ db:
     username: user
     password: 1234qwer
     url: jdbc:postgresql://localhost:5432/testing
+    schema: testing
   fetchSize: 2

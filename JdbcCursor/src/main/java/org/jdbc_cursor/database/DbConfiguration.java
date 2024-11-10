@@ -1,7 +1,8 @@
-package org.example.database;
+package org.jdbc_cursor.database;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.jdbc_cursor.database.provider.DbGeneralPropertiesProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;

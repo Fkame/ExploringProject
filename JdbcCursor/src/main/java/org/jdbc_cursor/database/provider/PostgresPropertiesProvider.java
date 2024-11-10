@@ -1,4 +1,4 @@
-package org.example.database;
+package org.jdbc_cursor.database.provider;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -14,4 +14,5 @@ public class PostgresPropertiesProvider {
     private String username;
     private String password;
     private String driverClassName;
+    private String schema;
 }

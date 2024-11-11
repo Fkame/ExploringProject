@@ -1,6 +1,7 @@
 package org.param_provider.provider;
 
 import jakarta.annotation.PostConstruct;
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -9,6 +10,7 @@ import java.util.List;
 
 @Component
 @Slf4j
+@Getter
 public class ValueParameterProvider {
 
     @Value("${core.app_name}")

@@ -1,6 +1,7 @@
 package org.param_provider.provider;
 
 import jakarta.annotation.PostConstruct;
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
@@ -9,6 +10,7 @@ import java.util.List;
 
 @Slf4j
 @Component
+@Getter
 public class EnvParameterProvider {
 
     private final String appName;

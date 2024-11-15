@@ -1,0 +1,7 @@
+# датасурс хиккари создастся автоматически спрингом
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/testing?currentSchema=testing"
+    password: "1234qwer"
+    username: "user"
+    driver-class-name: org.postgresql.Driver

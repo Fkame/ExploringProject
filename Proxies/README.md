@@ -14,6 +14,8 @@ https://dev.to/anh_trntun_4732cf3d299/dynamic-proxy-in-spring-a-comprehensive-gu
 Про aop proxy в спринге:
 https://docs.spring.io/spring-framework/reference/core/aop/proxying.html
 
+Пример использования ProxyFactory: https://docs.spring.io/spring-framework/reference/core/aop/proxying.html#aop-understanding-aop-proxies
+
 ## Оглавление
 
 Основа из коробки - JDK dynamic proxy - [JDK dynamic proxy](JDK%20dynamic%20proxy.md)

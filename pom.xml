@@ -12,6 +12,7 @@
         <module>JdbcCursor</module>
         <module>ParameterProviders</module>
         <module>Transactions</module>
+        <module>Proxies</module>
     </modules>
 
     <properties>

@@ -15,6 +15,7 @@
         <module>Proxies</module>
         <module>Security</module>
         <module>Kafka</module>
+        <module>Micrometer</module>
     </modules>
 
     <properties>

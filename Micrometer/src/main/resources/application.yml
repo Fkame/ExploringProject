@@ -1,0 +1,19 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "metrics,prometheus,mappings"
+  metrics:
+    enable:
+      jvm: false
+      executor: false
+      tomcat.sessions: false
+      logback: false
+      disk: false
+      system: false
+      process: false
+logging:
+  level:
+    org.springframework.web: TRACE
+    org.springframework.boot.actuate: TRACE
+

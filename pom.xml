@@ -16,6 +16,9 @@
         <module>Security</module>
         <module>Kafka</module>
         <module>Micrometer</module>
+        <module>ImportingSpring</module>
+        <module>ImportingSpring/SpringAsParent</module>
+        <module>ImportingSpring/SpringDependenciesBom</module>
     </modules>
 
     <properties>
